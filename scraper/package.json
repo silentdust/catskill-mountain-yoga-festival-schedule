@@ -1,0 +1,12 @@
+{
+  "name": "catskill-yoga-schedule-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

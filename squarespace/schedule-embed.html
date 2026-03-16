@@ -1,0 +1,405 @@
+<style>
+  /* ── Theme tokens — override these to match your Squarespace palette ── */
+  .cmyf-schedule {
+    --cmyf-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --cmyf-color-primary: #4a6741;
+    --cmyf-color-primary-light: #e8f0e6;
+    --cmyf-color-text: #2c2c2c;
+    --cmyf-color-text-muted: #6b6b6b;
+    --cmyf-color-bg: #ffffff;
+    --cmyf-color-card-bg: #ffffff;
+    --cmyf-color-card-border: #e2e2e2;
+    --cmyf-color-badge-bg: #4a6741;
+    --cmyf-color-badge-text: #ffffff;
+    --cmyf-radius: 8px;
+    --cmyf-max-width: 900px;
+  }
+
+  .cmyf-schedule {
+    font-family: var(--cmyf-font);
+    color: var(--cmyf-color-text);
+    max-width: var(--cmyf-max-width);
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .cmyf-schedule *, .cmyf-schedule *::before, .cmyf-schedule *::after {
+    box-sizing: border-box;
+  }
+
+  /* ── Loading / Error ── */
+  .cmyf-loading, .cmyf-error {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--cmyf-color-text-muted);
+    font-size: 1.05rem;
+  }
+
+  .cmyf-error {
+    color: #a94442;
+    background: #fdf2f2;
+    border-radius: var(--cmyf-radius);
+    border: 1px solid #ebccd1;
+  }
+
+  .cmyf-spinner {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 3px solid var(--cmyf-color-card-border);
+    border-top-color: var(--cmyf-color-primary);
+    border-radius: 50%;
+    animation: cmyf-spin 0.7s linear infinite;
+    margin-bottom: 0.75rem;
+  }
+
+  @keyframes cmyf-spin {
+    to { transform: rotate(360deg); }
+  }
+
+  /* ── Filter bar ── */
+  .cmyf-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cmyf-filter-btn {
+    background: var(--cmyf-color-card-bg);
+    border: 1px solid var(--cmyf-color-card-border);
+    border-radius: 20px;
+    padding: 0.35rem 0.85rem;
+    font-size: 0.82rem;
+    cursor: pointer;
+    color: var(--cmyf-color-text);
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+    font-family: var(--cmyf-font);
+  }
+
+  .cmyf-filter-btn:hover {
+    border-color: var(--cmyf-color-primary);
+  }
+
+  .cmyf-filter-btn.cmyf-active {
+    background: var(--cmyf-color-primary);
+    color: var(--cmyf-color-badge-text);
+    border-color: var(--cmyf-color-primary);
+  }
+
+  /* ── Date group ── */
+  .cmyf-date-heading {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 2rem 0 0.75rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid var(--cmyf-color-primary);
+    color: var(--cmyf-color-primary);
+  }
+
+  .cmyf-date-heading:first-of-type {
+    margin-top: 0;
+  }
+
+  /* ── Session card ── */
+  .cmyf-card {
+    background: var(--cmyf-color-card-bg);
+    border: 1px solid var(--cmyf-color-card-border);
+    border-radius: var(--cmyf-radius);
+    padding: 1rem 1.15rem;
+    margin-bottom: 0.75rem;
+    transition: box-shadow 0.15s;
+  }
+
+  .cmyf-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
+
+  .cmyf-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .cmyf-card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.35;
+    flex: 1 1 0;
+    min-width: 200px;
+  }
+
+  .cmyf-badge {
+    display: inline-block;
+    background: var(--cmyf-color-badge-bg);
+    color: var(--cmyf-color-badge-text);
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.2rem 0.6rem;
+    border-radius: 12px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    flex-shrink: 0;
+  }
+
+  .cmyf-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.25rem;
+    margin-top: 0.45rem;
+    font-size: 0.88rem;
+    color: var(--cmyf-color-text-muted);
+  }
+
+  .cmyf-meta span::before {
+    margin-right: 0.3rem;
+  }
+
+  .cmyf-meta-time::before { content: "\1F552"; }
+  .cmyf-meta-instructor::before { content: "\1F9D8"; }
+  .cmyf-meta-location::before { content: "\1F4CD"; }
+
+  .cmyf-desc {
+    margin-top: 0.55rem;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--cmyf-color-text);
+  }
+
+  .cmyf-desc-truncated {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .cmyf-read-more {
+    background: none;
+    border: none;
+    color: var(--cmyf-color-primary);
+    cursor: pointer;
+    padding: 0;
+    font-size: 0.85rem;
+    font-family: var(--cmyf-font);
+    font-weight: 500;
+    margin-top: 0.25rem;
+    display: inline-block;
+  }
+
+  .cmyf-read-more:hover {
+    text-decoration: underline;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 600px) {
+    .cmyf-schedule { padding: 0.5rem; }
+    .cmyf-card { padding: 0.85rem; }
+    .cmyf-card-title { font-size: 0.97rem; }
+    .cmyf-date-heading { font-size: 1.15rem; }
+  }
+</style>
+
+<div class="cmyf-schedule" id="cmyf-root">
+  <div class="cmyf-loading" id="cmyf-loading">
+    <div class="cmyf-spinner"></div>
+    <div>Loading schedule&hellip;</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  /* ── CONFIGURATION — update this URL after deploying ── */
+  var SCHEDULE_JSON_URL =
+    "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/data/schedule.json";
+
+  var root = document.getElementById("cmyf-root");
+  var loadingEl = document.getElementById("cmyf-loading");
+  var activeCategory = null;
+
+  function escapeHTML(str) {
+    var d = document.createElement("div");
+    d.appendChild(document.createTextNode(str));
+    return d.innerHTML;
+  }
+
+  function showError(msg) {
+    loadingEl.remove();
+    var el = document.createElement("div");
+    el.className = "cmyf-error";
+    el.textContent = msg;
+    root.appendChild(el);
+  }
+
+  function parseTime(str) {
+    var m = (str || "").match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+    if (!m) return 0;
+    var h = parseInt(m[1], 10);
+    var min = parseInt(m[2], 10);
+    var pm = m[3].toUpperCase() === "PM";
+    if (pm && h !== 12) h += 12;
+    if (!pm && h === 12) h = 0;
+    return h * 60 + min;
+  }
+
+  function render(data) {
+    loadingEl.remove();
+
+    var sessions = data.sessions || [];
+    var categories = [];
+    var seen = {};
+    sessions.forEach(function (s) {
+      if (s.category && !seen[s.category]) {
+        seen[s.category] = true;
+        categories.push(s.category);
+      }
+    });
+    categories.sort();
+
+    /* Filter bar */
+    if (categories.length > 1) {
+      var bar = document.createElement("div");
+      bar.className = "cmyf-filters";
+      bar.id = "cmyf-filters";
+
+      var allBtn = document.createElement("button");
+      allBtn.className = "cmyf-filter-btn cmyf-active";
+      allBtn.textContent = "All";
+      allBtn.setAttribute("data-category", "");
+      bar.appendChild(allBtn);
+
+      categories.forEach(function (cat) {
+        var btn = document.createElement("button");
+        btn.className = "cmyf-filter-btn";
+        btn.textContent = cat;
+        btn.setAttribute("data-category", cat);
+        bar.appendChild(btn);
+      });
+
+      bar.addEventListener("click", function (e) {
+        var btn = e.target.closest(".cmyf-filter-btn");
+        if (!btn) return;
+        var cat = btn.getAttribute("data-category");
+        activeCategory = cat || null;
+        bar.querySelectorAll(".cmyf-filter-btn").forEach(function (b) {
+          b.classList.toggle("cmyf-active", b === btn);
+        });
+        applyFilter();
+      });
+
+      root.appendChild(bar);
+    }
+
+    /* Group by date */
+    var groups = {};
+    var dateOrder = [];
+    sessions.forEach(function (s) {
+      var d = s.date || "TBD";
+      if (!groups[d]) { groups[d] = []; dateOrder.push(d); }
+      groups[d].push(s);
+    });
+
+    /* Sort dates chronologically — unparseable dates (e.g. "TBD") go last */
+    dateOrder.sort(function (a, b) {
+      var da = new Date(a).getTime();
+      var db = new Date(b).getTime();
+      var aValid = !isNaN(da);
+      var bValid = !isNaN(db);
+      if (aValid && bValid) return da - db;
+      if (aValid) return -1;
+      if (bValid) return 1;
+      return 0;
+    });
+
+    /* Sort sessions within each date by start time */
+    dateOrder.forEach(function (d) {
+      groups[d].sort(function (a, b) {
+        return parseTime(a.startTime) - parseTime(b.startTime);
+      });
+    });
+
+    /* Render */
+    dateOrder.forEach(function (d) {
+      var heading = document.createElement("h2");
+      heading.className = "cmyf-date-heading";
+      heading.textContent = d;
+      heading.setAttribute("data-cmyf-date", d);
+      root.appendChild(heading);
+
+      groups[d].forEach(function (s) {
+        var card = document.createElement("div");
+        card.className = "cmyf-card";
+        card.setAttribute("data-cmyf-cat", s.category || "");
+        card.setAttribute("data-cmyf-date", d);
+
+        var timeStr = [s.startTime, s.endTime].filter(Boolean).join(" - ");
+
+        var html =
+          '<div class="cmyf-card-header">' +
+            '<h3 class="cmyf-card-title">' + escapeHTML(s.title) + "</h3>" +
+            (s.category ? '<span class="cmyf-badge">' + escapeHTML(s.category) + "</span>" : "") +
+          "</div>" +
+          '<div class="cmyf-meta">' +
+            (timeStr ? '<span class="cmyf-meta-time">' + escapeHTML(timeStr) + "</span>" : "") +
+            (s.instructor ? '<span class="cmyf-meta-instructor">' + escapeHTML(s.instructor) + "</span>" : "") +
+            (s.location ? '<span class="cmyf-meta-location">' + escapeHTML(s.location) + "</span>" : "") +
+          "</div>";
+
+        if (s.description) {
+          html +=
+            '<div class="cmyf-desc cmyf-desc-truncated" data-full="' + escapeHTML(s.description) + '">' +
+              escapeHTML(s.description) +
+            "</div>" +
+            '<button class="cmyf-read-more">Read more</button>';
+        }
+
+        card.innerHTML = html;
+        root.appendChild(card);
+      });
+    });
+
+    /* Read more / Read less */
+    root.addEventListener("click", function (e) {
+      var btn = e.target.closest(".cmyf-read-more");
+      if (!btn) return;
+      var desc = btn.previousElementSibling;
+      if (!desc) return;
+      var isTruncated = desc.classList.contains("cmyf-desc-truncated");
+      desc.classList.toggle("cmyf-desc-truncated", !isTruncated);
+      btn.textContent = isTruncated ? "Read less" : "Read more";
+    });
+  }
+
+  function applyFilter() {
+    var cards = root.querySelectorAll(".cmyf-card");
+    var visibleDates = {};
+
+    cards.forEach(function (card) {
+      var cat = card.getAttribute("data-cmyf-cat");
+      var show = !activeCategory || cat === activeCategory;
+      card.style.display = show ? "" : "none";
+      if (show) visibleDates[card.getAttribute("data-cmyf-date")] = true;
+    });
+
+    root.querySelectorAll(".cmyf-date-heading").forEach(function (h) {
+      h.style.display = visibleDates[h.getAttribute("data-cmyf-date")] ? "" : "none";
+    });
+  }
+
+  /* ── Fetch schedule data ── */
+  fetch(SCHEDULE_JSON_URL)
+    .then(function (r) {
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(function (err) {
+      showError("Unable to load the schedule. Please try again later.");
+      console.error("CMYF schedule fetch error:", err);
+    });
+})();
+</script>
