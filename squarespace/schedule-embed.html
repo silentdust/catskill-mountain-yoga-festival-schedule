@@ -156,13 +156,18 @@
     color: var(--cmyf-color-text-muted);
   }
 
-  .cmyf-meta span::before {
-    margin-right: 0.3rem;
+  .cmyf-meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
   }
 
-  .cmyf-meta-time::before { content: "\1F552"; }
-  .cmyf-meta-instructor::before { content: "\1F9D8"; }
-  .cmyf-meta-location::before { content: "\1F4CD"; }
+  .cmyf-meta svg {
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    vertical-align: middle;
+  }
 
   .cmyf-desc {
     margin-top: 0.55rem;
@@ -343,9 +348,9 @@
             (s.category ? '<span class="cmyf-badge">' + escapeHTML(s.category) + "</span>" : "") +
           "</div>" +
           '<div class="cmyf-meta">' +
-            (timeStr ? '<span class="cmyf-meta-time">' + escapeHTML(timeStr) + "</span>" : "") +
-            (s.instructor ? '<span class="cmyf-meta-instructor">' + escapeHTML(s.instructor) + "</span>" : "") +
-            (s.location ? '<span class="cmyf-meta-location">' + escapeHTML(s.location) + "</span>" : "") +
+            (timeStr ? '<span class="cmyf-meta-time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="12" x2="12" y2="7"/><line x1="12" y1="12" x2="16" y2="12"/></svg>' + escapeHTML(timeStr) + "</span>" : "") +
+            (s.instructor ? '<span class="cmyf-meta-instructor"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="6" r="2"/><path d="M6 14c2-2 4-3 6-3s4 1 6 3"/><path d="M5 18c2-2 4-3 7-3s5 1 7 3"/></svg>' + escapeHTML(s.instructor) + "</span>" : "") +
+            (s.location ? '<span class="cmyf-meta-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s6-6 6-10a6 6 0 1 0-12 0c0 4 6 10 6 10z"/><circle cx="12" cy="11" r="2"/></svg>' + escapeHTML(s.location) + "</span>" : "") +
           "</div>";
 
         if (s.description) {
