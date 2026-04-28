@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T07:10:29.083Z",
+  "lastUpdated": "2026-04-28T08:18:26.596Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -58,7 +58,7 @@
       "startTime": "8:00 AM",
       "endTime": "9:00 AM",
       "location": "Long Field A",
-      "category": "Yoga",
+      "category": "Vinyasa Flow Yoga",
       "capacity": null,
       "tags": []
     },
@@ -94,7 +94,7 @@
       "startTime": "8:00 AM",
       "endTime": "9:00 AM",
       "location": "Long Field B",
-      "category": "Yoga",
+      "category": "Ashtanga",
       "capacity": null,
       "tags": []
     },
@@ -130,7 +130,7 @@
       "startTime": "9:30 AM",
       "endTime": "10:30 AM",
       "location": "Long Field A",
-      "category": "Yoga",
+      "category": "Vinyasa Flow Yoga",
       "capacity": null,
       "tags": []
     },
@@ -250,7 +250,7 @@
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
       "location": "Meet at Registration",
-      "category": "Essential Oils",
+      "category": "Workshop",
       "capacity": null,
       "tags": []
     },
@@ -274,7 +274,7 @@
       "startTime": "1:00 PM",
       "endTime": "2:00 PM",
       "location": "Meet in Clark Lot",
-      "category": "Workshop",
+      "category": "Plant Walk",
       "capacity": null,
       "tags": []
     },
@@ -286,7 +286,7 @@
       "startTime": "1:00 PM",
       "endTime": "2:00 PM",
       "location": "Long Field A",
-      "category": "Yoga",
+      "category": "Iyengar",
       "capacity": null,
       "tags": []
     },
@@ -310,7 +310,7 @@
       "startTime": "1:00 PM",
       "endTime": "2:00 PM",
       "location": "Middlefield Nook",
-      "category": "Yoga",
+      "category": "Vinyasa Flow Yoga",
       "capacity": null,
       "tags": []
     },
@@ -358,7 +358,7 @@
       "startTime": "2:30 PM",
       "endTime": "3:30 PM",
       "location": "Long Field A",
-      "category": "Yoga",
+      "category": "Yoga & Breathwork",
       "capacity": null,
       "tags": []
     },
@@ -370,7 +370,7 @@
       "startTime": "2:30 PM",
       "endTime": "3:30 PM",
       "location": "Middlefield Nook",
-      "category": "Yoga",
+      "category": "Vinyasa Flow Yoga",
       "capacity": null,
       "tags": []
     },
@@ -382,7 +382,7 @@
       "startTime": "2:30 PM",
       "endTime": "3:30 PM",
       "location": "Long Field B",
-      "category": "Yoga",
+      "category": "Yoga & Breathwork",
       "capacity": null,
       "tags": []
     },
@@ -406,7 +406,7 @@
       "startTime": "4:00 PM",
       "endTime": "5:00 PM",
       "location": "Long Field B",
-      "category": "Workshop",
+      "category": "Foam Rolling",
       "capacity": null,
       "tags": []
     },
@@ -454,7 +454,7 @@
       "startTime": "4:00 PM",
       "endTime": "5:00 PM",
       "location": "Long Field A",
-      "category": "Yoga",
+      "category": "Yoga & Alignment",
       "capacity": null,
       "tags": []
     },
@@ -478,7 +478,7 @@
       "startTime": "10:00 AM",
       "endTime": "11:00 AM",
       "location": "The Cardio Club",
-      "category": "Acro",
+      "category": "Inversions",
       "capacity": null,
       "tags": []
     }
