@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T08:18:26.596Z",
+  "lastUpdated": "2026-04-30T19:13:54.689Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -27,6 +27,30 @@
       "tags": []
     },
     {
+      "title": "Grounded Grace: Beginner Aerial Restorative w/Nancy Forstbauer (Farrell Center Dance Studio) 8:00AM-9:00AM",
+      "description": "Step into a calm, nurturing space where movement meets surrender. In this low silk, beginner-friendly aerial yoga class, Nancy guides you through simple, slow, and soft movements designed to restore balance and ease. The low-hanging silks offer gentle support, allowing you to explore trust, release tension, and connect deeply with your body. Each class invites you to honor your unique rhythm — there’s no rush, no expectation, just the freedom to listen to your intuition and make the practice truly yours. Perfect for all levels, especially those new to aerial yoga or seeking a mindful, restorative experience. This style of yoga is done in a soft fabric hammock elevated above the ground about 3 or 4 feet. In contrast to a traditional yoga class where we use strength to hold our poses. Aerial yoga is about learning how to let go within the posture. The hammock is used to make inversions more accessible by alleviating back and neck compression. It also aligns the spine and decompresses the joints of the body.",
+      "instructor": "Nancy Forstbauer",
+      "date": "Jul 25, 2026",
+      "startTime": "4:00 AM",
+      "endTime": "9:00 AM",
+      "location": "Farrell Center Dance Studio",
+      "category": "Aerial Yoga",
+      "capacity": null,
+      "tags": []
+    },
+    {
+      "title": "Intro to Meditation w/Melissa Boyd (Middlefield Nook) 8:00AM - 9:00AM",
+      "description": "In this transformative workshop you will learn all of the basic techniques to learning meditation. There are two broad categories of meditation: guided visualizations and focal point concentration meditations. All of the meditations fall into these broad groups: from zen to loving kindness, to vipassana to mantra, and music meditations. In the workshop we will explore a few types of meditations finding the techniques to calm the body, silence the mind, and enrich the soul.",
+      "instructor": "Melissa Boyd",
+      "date": "Jul 25, 2026",
+      "startTime": "4:00 AM",
+      "endTime": "9:00 AM",
+      "location": "Middlefield Nook",
+      "category": "Meditation",
+      "capacity": null,
+      "tags": []
+    },
+    {
       "title": "Outdoor Floating Sound bath w/Ananda Priti ($15.00 additional fee) (In the Pool) 8:00AM-8:50AM",
       "description": "Experience ultimate relaxation as you float in a serene pool on a comfortable raft, immersed in the soothing sounds of a continuous sound bath by Ananda Priti. This float will be OUTSIDE, weather permitting Ananda, a talented sound healer, creates a harmonious atmosphere with crystal singing bowls that resonate beautifully, promoting deep relaxation and inner peace. The gentle rocking of the water enhances this transformative journey of self-discovery and rejuvenation. Designed as a sanctuary for well-being, this event invites you to let go of stress and embrace the healing power of music and water. Floating rafts will be available for you to be assisted onto and off of. You'll receive a cozy blanket, a head pillow, and an eye mask for a fully immersive experience. (A lifeguard will be present to ensure your safety throughout.)",
       "instructor": "Ananda Priti",
@@ -39,18 +63,6 @@
       "tags": []
     },
     {
-      "title": "Grounded Grace: Beginner Aerial Restorative w/Nancy Forstbauer (Farrell Hall Dance Studio) 8:00AM-9:00AM",
-      "description": "Step into a calm, nurturing space where movement meets surrender. In this low silk, beginner-friendly aerial yoga class, Nancy guides you through simple, slow, and soft movements designed to restore balance and ease. The low-hanging silks offer gentle support, allowing you to explore trust, release tension, and connect deeply with your body. Each class invites you to honor your unique rhythm — there’s no rush, no expectation, just the freedom to listen to your intuition and make the practice truly yours. Perfect for all levels, especially those new to aerial yoga or seeking a mindful, restorative experience. This style of yoga is done in a soft fabric hammock elevated above the ground about 3 or 4 feet. In contrast to a traditional yoga class where we use strength to hold our poses. Aerial yoga is about learning how to let go within the posture. The hammock is used to make inversions more accessible by alleviating back and neck compression. It also aligns the spine and decompresses the joints of the body.",
-      "instructor": "Nancy Forstbauer",
-      "date": "Jul 25, 2026",
-      "startTime": "8:00 AM",
-      "endTime": "9:00 AM",
-      "location": "Farrell Hall Dance Studio",
-      "category": "Aerial Yoga",
-      "capacity": null,
-      "tags": []
-    },
-    {
       "title": "Ebb & Flow w/Festival Coordinator Raegan Reed (Long Field A) 8:00AM-9:00AM",
       "description": "By definition, ebb and flow means; a recurrent or rhythmical pattern of coming and going or decline and regrowth. This expression makes reference to the regular movement of the tides, where ebb means move away from the land and flow move back towards it. Like an ocean wave, we will start low and slow, we will pick up momentum midway and we will flow back down. In this class, you will experience twists, turns, deep stretching, a deep focus on alignment and breath, yummy hands on adjustments and much more! All levels welcome and encouraged! Modifications will be offered and everyone can move at their own pace.",
       "instructor": "Festival Coordinator Raegan Reed",
@@ -59,18 +71,6 @@
       "endTime": "9:00 AM",
       "location": "Long Field A",
       "category": "Vinyasa Flow Yoga",
-      "capacity": null,
-      "tags": []
-    },
-    {
-      "title": "Intro to Meditation w/Melissa Boyd (Middle Field Nook) 8:00AM - 9:00AM",
-      "description": "In this transformative workshop you will learn all of the basic techniques to learning meditation. There are two broad categories of meditation: guided visualizations and focal point concentration meditations. All of the meditations fall into these broad groups: from zen to loving kindness, to vipassana to mantra, and music meditations. In the workshop we will explore a few types of meditations finding the techniques to calm the body, silence the mind, and enrich the soul.",
-      "instructor": "Melissa Boyd",
-      "date": "Jul 25, 2026",
-      "startTime": "8:00 AM",
-      "endTime": "9:00 AM",
-      "location": "Middle Field Nook",
-      "category": "Meditation",
       "capacity": null,
       "tags": []
     },
@@ -111,13 +111,13 @@
       "tags": []
     },
     {
-      "title": "60-minute Yoga Trapeze w/Nancy Forstbauer (Farrell Hall Dance Studio) 9:30AM - 10:30AM",
+      "title": "60-minute Yoga Trapeze w/Nancy Forstbauer (Farrell Center Dance Studio) 9:30AM - 10:30AM",
       "description": "In this 60- minute class you will experience invigorating, powerful and safe movements. It is a combination of resistance training and yoga with a robust mix of inversions and deep stretches while being supported throughout all poses. Students have described it as non-stop fun with empowering results. Reported benefits include relief of back pain, core strength development, deeper backbends and more shoulder rotation. Additional benefits of Yoga Trapeze are increased Flexibility, Mobility, Balance and Strength. Through a series of poses you are able to build a strong core, develop upper and lower body strength and move into safe backbends and inversions using functional strength. Functional strength movements include pulling, holding and pushing using your body weight. This class will leave you floating on air!",
       "instructor": "Nancy Forstbauer",
       "date": "Jul 25, 2026",
       "startTime": "9:30 AM",
       "endTime": "10:30 AM",
-      "location": "Farrell Hall Dance Studio",
+      "location": "Farrell Center Dance Studio",
       "category": "Yoga Trapeze",
       "capacity": null,
       "tags": []
@@ -147,13 +147,13 @@
       "tags": []
     },
     {
-      "title": "Hike w/Gary Leahy, Semi-Strenuous (Meet at Vendor Village) 9:30AM-10:30AM",
+      "title": "Hike w/Gary Leahy, Semi-Strenuous (Meet at picnic tables in Vendor Village) 9:30AM-10:30AM",
       "description": "Join Gary Leahy as we hike UP to the TOP of the Mountain behind SUNY Delhi. This hike will take 60 minutes to get up the mountain. From there, you can hike back down. Please wear sunscreen, sneakers and bring water.",
       "instructor": "Gary Leahy",
       "date": "Jul 25, 2026",
       "startTime": "9:30 AM",
       "endTime": "10:30 AM",
-      "location": "Meet at Vendor Village",
+      "location": "Meet at picnic tables in Vendor Village",
       "category": "Hike",
       "capacity": null,
       "tags": []
@@ -195,25 +195,25 @@
       "tags": []
     },
     {
-      "title": "60-minute Yoga Trapeze w/Nancy Forstbauer (Farrell Hall Dance Studio) 11:00AM - 12:00PM",
+      "title": "60-minute Yoga Trapeze w/Nancy Forstbauer (Farrell Center Dance Studio) 11:00AM - 12:00PM",
       "description": "In this 60- minute class you will experience invigorating, powerful and safe movements. It is a combination of resistance training and yoga with a robust mix of inversions and deep stretches while being supported throughout all poses. Students have described it as non-stop fun with empowering results. Reported benefits include relief of back pain, core strength development, deeper backbends and more shoulder rotation. Additional benefits of Yoga Trapeze are increased Flexibility, Mobility, Balance and Strength. Through a series of poses you are able to build a strong core, develop upper and lower body strength and move into safe backbends and inversions using functional strength. Functional strength movements include pulling, holding and pushing using your body weight. This class will leave you floating on air!",
       "instructor": "Nancy Forstbauer",
       "date": "Jul 25, 2026",
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
-      "location": "Farrell Hall Dance Studio",
+      "location": "Farrell Center Dance Studio",
       "category": "Yoga Trapeze",
       "capacity": null,
       "tags": []
     },
     {
-      "title": "My First AcroYoga Flow w/YogaSlackers (Middle Field Nook) 11:00AM-12:00PM",
+      "title": "My First AcroYoga Flow w/YogaSlackers (Middlefield Nook) 11:00AM-12:00PM",
       "description": "In this class, we’ll start with individual AcroYoga poses. Beautiful on their own shapes that help you feel stable and connected. Then, we’ll piece them together, moving from one pose to the next without touching the ground! The goal is to create a flying flowing “vinyasa” between three people: a base, a flyer, and a spotter. You’ll learn how these transitions can feel smooth and playful, and how working with others can take your practice to new heights. Come solo or with a friend with the intention to play, have fun and elevate each other. While no experience is necessary, it helps if you can hold a plank pose for 30 seconds.",
       "instructor": "YogaSlackers",
       "date": "Jul 25, 2026",
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
-      "location": "Middle Field Nook",
+      "location": "Middlefield Nook",
       "category": "Acro",
       "capacity": null,
       "tags": []
@@ -243,13 +243,13 @@
       "tags": []
     },
     {
-      "title": "Essential Oils 101 w/Dr Victoria Ciummo (Meet at Registration) 11:00AM-12:00PM",
+      "title": "Essential Oils 101 w/Dr Victoria Ciummo (Meet at picnic tables in Vendor Village) 11:00AM-12:00PM",
       "description": "Victoria is a Doctor of Pharmacy and Wellness Consultant, who believes in a holistic approach to healing. She has a passion for helping others find healthy, natural alternatives focusing on the benefits of plants and essential oils. An introductory aromatherapy class educating on what essential oils are and how to use them. Workshop includes information on the therapeutic benefits, and sampling, of common essential oils; and optional guided breath work meditation.",
       "instructor": "Dr Victoria Ciummo",
       "date": "Jul 25, 2026",
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
-      "location": "Meet at Registration",
+      "location": "Meet at picnic tables in Vendor Village",
       "category": "Workshop",
       "capacity": null,
       "tags": []
@@ -315,13 +315,13 @@
       "tags": []
     },
     {
-      "title": "Sun Salutations: Unveiling the Path to Perfectly Balanced Handstands w/YogaSlackers (Farrell Hall Dance Studio) 1:00PM - 2:00PM",
+      "title": "Sun Salutations: Unveiling the Path to Perfectly Balanced Handstands w/YogaSlackers (Farrell Center Dance Studio) 1:00PM - 2:00PM",
       "description": "All Levels Welcome! What if your handstand practice could live inside your Sun Salutations? In this workshop, we reframe Surya Namaskar as a handstand lab: using familiar shapes to build the real ingredients of balance: shoulder elevation, core integration, weight transfer, and calm, steady breath. We’ll break the sequence into clear, repeatable micro-drills to alignment, strength, and confidence. You’ll learn how to layer intention into every transition, turning a warm-up into a purposeful path toward straighter, quieter entries and longer holds over time. No handstand experience needed. You’ll leave with a simple take-home protocol you can add to any practices stepping closer to your handstand goals, one Sun Salutation at a time.",
       "instructor": "YogaSlackers",
       "date": "Jul 25, 2026",
       "startTime": "1:00 PM",
       "endTime": "2:00 PM",
-      "location": "Farrell Hall Dance Studio",
+      "location": "Farrell Center Dance Studio",
       "category": "Inversions",
       "capacity": null,
       "tags": []
@@ -339,13 +339,13 @@
       "tags": []
     },
     {
-      "title": "Crow: The Groundwork Toward Handstands w/YogaSlackers (Farrell Hall Dance Studio) 2:30PM-3:30PM",
+      "title": "Crow: The Groundwork Toward Handstands w/YogaSlackers (Farrell Center Dance Studio) 2:30PM-3:30PM",
       "description": "Understanding crow pose and other arm balance poses can help us build a solid foundation for handstands and other inversions. The secret starts the moment your hands touch the ground. In this class, we’ll decodify crow pose and other shapes to build the strength, alignment, and confidence for your future handstand journey. We’ll break movements down step-by-step to help you stabilize through hands and wrists, shift weight with control, and breathe with ease. If you’ve avoided arm balances due to pain or discomfort, we’ll focus on joint-friendly setup, smart technique, and personalized options so you can practice without strain. You’ll leave with a clear path to progress and a few drills you can repeat at home. All levels welcome. Come start (or restart) your balance journey.",
       "instructor": "YogaSlackers",
       "date": "Jul 25, 2026",
       "startTime": "2:30 PM",
       "endTime": "3:30 PM",
-      "location": "Farrell Hall Dance Studio",
+      "location": "Farrell Center Dance Studio",
       "category": "Inversions",
       "capacity": null,
       "tags": []
@@ -435,13 +435,13 @@
       "tags": []
     },
     {
-      "title": "My Very First Handstand w/YogaSlackers (Farrell Hall Dance Studio) 4:00PM-5:00PM",
+      "title": "My Very First Handstand w/YogaSlackers (Farrell Center Dance Studio) 4:00PM-5:00PM",
       "description": "Ready for a thrilling step into the world of handstands? By the end of this beginner-friendly class, you’ll be able to get into your very first handstand! We’ll break down the essentials (alignment, strength, and entry techniques) to help you safely and confidently get upside down. Whether handstands have always been a dream or a curious challenge, this workshop offers a supportive, step-by-step path. Pre-Req: You should be able to hold a 15-second plank pose and have no conditions that might make inversions unsafe. For example, high blood pressure or glaucoma.",
       "instructor": "YogaSlackers",
       "date": "Jul 25, 2026",
       "startTime": "4:00 PM",
       "endTime": "5:00 PM",
-      "location": "Farrell Hall Dance Studio",
+      "location": "Farrell Center Dance Studio",
       "category": "Inversions",
       "capacity": null,
       "tags": []
