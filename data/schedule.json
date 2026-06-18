@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T19:13:54.689Z",
+  "lastUpdated": "2026-06-18T20:20:52.812Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -250,6 +250,18 @@
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
       "location": "Meet at picnic tables in Vendor Village",
+      "category": "Workshop",
+      "capacity": null,
+      "tags": []
+    },
+    {
+      "title": "Vāsi Yoga: Understanding the Yogic Meditation State with HarishBharadwaj Clark Field House 11AM-12PM",
+      "description": "Ancient Siddha Breathwork, Modern EEG Insight, and the Biology of Inner Stillness After more than ten years of study under the Siddha lineage, Harish Bharadhwaj began asking a deeper question: what is actually happening in the body and brain when meditation becomes effortless? His breakthrough came through understanding the biology of meditation, how breath, awareness, nervous system regulation, and brainwave states work together to create the conditions for deep inner stillness. In this talk, Harish shares the foundation of Vāsi Yoga and his own EEG findings on the meditative state: what happens in the brain when stillness begins, and how this ancient Siddha breathwork practice can help sincere seekers move beyond surface relaxation toward a deeper, more stable meditation practice. In this session: Learn why meditation is not something you force, but a state the body enters when the right conditions are created. See how breath, stillness, and brainwave patterns reveal the shift from effort to meditation. Understand how Vāsi Yoga prepares the body and nervous system for a deeper, more stable meditative state.",
+      "instructor": "HarishBharadwaj Clark Field House",
+      "date": "Jul 25, 2026",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "location": "Clark Field House",
       "category": "Workshop",
       "capacity": null,
       "tags": []
