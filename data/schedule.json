@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T19:18:28.327Z",
+  "lastUpdated": "2026-07-18T02:01:36.390Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -43,22 +43,10 @@
       "description": "Step into a calm, nurturing space where movement meets surrender. In this low silk, beginner-friendly aerial yoga class, Nancy guides you through simple, slow, and soft movements designed to restore balance and ease. The low-hanging silks offer gentle support, allowing you to explore trust, release tension, and connect deeply with your body. Each class invites you to honor your unique rhythm — there’s no rush, no expectation, just the freedom to listen to your intuition and make the practice truly yours. Perfect for all levels, especially those new to aerial yoga or seeking a mindful, restorative experience. This style of yoga is done in a soft fabric hammock elevated above the ground about 3 or 4 feet. In contrast to a traditional yoga class where we use strength to hold our poses. Aerial yoga is about learning how to let go within the posture. The hammock is used to make inversions more accessible by alleviating back and neck compression. It also aligns the spine and decompresses the joints of the body.",
       "instructor": "Nancy Forstbauer",
       "date": "Jul 25, 2026",
-      "startTime": "4:00 AM",
+      "startTime": "8:00 AM",
       "endTime": "9:00 AM",
       "location": "Farrell Center Dance Studio",
       "category": "Aerial Yoga",
-      "capacity": null,
-      "tags": []
-    },
-    {
-      "title": "Intro to Meditation w/Melissa Boyd (Middlefield Nook) 8:00AM - 9:00AM",
-      "description": "In this transformative workshop you will learn all of the basic techniques to learning meditation. There are two broad categories of meditation: guided visualizations and focal point concentration meditations. All of the meditations fall into these broad groups: from zen to loving kindness, to vipassana to mantra, and music meditations. In the workshop we will explore a few types of meditations finding the techniques to calm the body, silence the mind, and enrich the soul.",
-      "instructor": "Melissa Boyd",
-      "date": "Jul 25, 2026",
-      "startTime": "4:00 AM",
-      "endTime": "9:00 AM",
-      "location": "Middlefield Nook",
-      "category": "Meditation",
       "capacity": null,
       "tags": []
     },
@@ -71,6 +59,18 @@
       "endTime": "9:00 AM",
       "location": "Long Field A",
       "category": "Vinyasa Flow Yoga",
+      "capacity": null,
+      "tags": []
+    },
+    {
+      "title": "Intro to Meditation w/Melissa Boyd (Middlefield Nook) 8:00AM - 9:00AM",
+      "description": "In this transformative workshop you will learn all of the basic techniques to learning meditation. There are two broad categories of meditation: guided visualizations and focal point concentration meditations. All of the meditations fall into these broad groups: from zen to loving kindness, to vipassana to mantra, and music meditations. In the workshop we will explore a few types of meditations finding the techniques to calm the body, silence the mind, and enrich the soul.",
+      "instructor": "Melissa Boyd",
+      "date": "Jul 25, 2026",
+      "startTime": "8:00 AM",
+      "endTime": "9:00 AM",
+      "location": "Middlefield Nook",
+      "category": "Meditation",
       "capacity": null,
       "tags": []
     },
@@ -255,9 +255,9 @@
       "tags": []
     },
     {
-      "title": "Vāsi Yoga: Understanding the Yogic Meditation State with HarishBharadwaj Clark Field House 11AM-12PM",
+      "title": "Vāsi Yoga: Understanding the Yogic Meditation State w/Harish Bharadwaj (Clark Field House) 11:00AM-12:00PM",
       "description": "Ancient Siddha Breathwork, Modern EEG Insight, and the Biology of Inner Stillness After more than ten years of study under the Siddha lineage, Harish Bharadhwaj began asking a deeper question: what is actually happening in the body and brain when meditation becomes effortless? His breakthrough came through understanding the biology of meditation, how breath, awareness, nervous system regulation, and brainwave states work together to create the conditions for deep inner stillness. In this talk, Harish shares the foundation of Vāsi Yoga and his own EEG findings on the meditative state: what happens in the brain when stillness begins, and how this ancient Siddha breathwork practice can help sincere seekers move beyond surface relaxation toward a deeper, more stable meditation practice. In this session: Learn why meditation is not something you force, but a state the body enters when the right conditions are created. See how breath, stillness, and brainwave patterns reveal the shift from effort to meditation. Understand how Vāsi Yoga prepares the body and nervous system for a deeper, more stable meditative state.",
-      "instructor": "HarishBharadwaj Clark Field House",
+      "instructor": "Harish Bharadwaj",
       "date": "Jul 25, 2026",
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
@@ -399,9 +399,9 @@
       "tags": []
     },
     {
-      "title": "Raja Yoga Meditation w/Susan Pollock Clark Field house 2:30PM-3:30PM",
+      "title": "Raja Yoga Meditation w/Susan Pollock (Clark Field House) 2:30PM-3:30PM",
       "description": "Raja Yoga Meditation is practiced with the eyes open. This allows us to bring the benefits into our practical lives as we face people and situations with a calm and stable presence. There are no mantras, postures, or breathing exercises. In silence, we go deep within and connect with our own source of peace, love, joy, and wisdom. We learn to make our mind our best friend and harness its power. This brings about newness in the way we think about ourselves and the world we live in. During this session, we will begin the journey of learning the meditation and spiritual understanding of Raja Yoga. Through guided reflection and meditation, participants will be invited to tap into their inner reservoir of fresh energy and leave with practical methods they can apply in everyday life.",
-      "instructor": "Susan Pollock Clark Field",
+      "instructor": "Susan Pollock",
       "date": "Jul 25, 2026",
       "startTime": "2:30 PM",
       "endTime": "3:30 PM",
