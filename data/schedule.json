@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T02:09:36.728Z",
+  "lastUpdated": "2026-07-24T02:12:09.203Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -39,18 +39,6 @@
       "tags": []
     },
     {
-      "title": "Slackline Yoga and AcroYoga w/YogaSlackers (Green Space) 8:00AM-9:00AM",
-      "description": "Kick off the festival by exploring two exciting practices at once! This class offers you a chance to try both Slackline Yoga and AcroYoga. Two worlds that share the same love for balance, connection, and playfulness. Whether you're brand new or have some experience in one or both, this class is a great way to explore the foundations of each practice. You'll play on the slackline and explore partner movements on the ground, discovering how both cultivate trust, focus, and joy. Come connect, play, and dive into these unique practices! You might just find a new passion or deepen your understanding of both! You do not need a partner or prior experience to join this class.",
-      "instructor": "YogaSlackers",
-      "date": "Jul 25, 2026",
-      "startTime": "4:00 AM",
-      "endTime": "9:00 AM",
-      "location": "Green Space",
-      "category": "Acro",
-      "capacity": null,
-      "tags": []
-    },
-    {
       "title": "*SOLD OUT* Grounded Grace: Beginner Aerial Restorative w/Nancy Forstbauer (Farrell Center Dance Studio) 8:00AM-9:00AM",
       "description": "Step into a calm, nurturing space where movement meets surrender. In this low silk, beginner-friendly aerial yoga class, Nancy guides you through simple, slow, and soft movements designed to restore balance and ease. The low-hanging silks offer gentle support, allowing you to explore trust, release tension, and connect deeply with your body. Each class invites you to honor your unique rhythm — there’s no rush, no expectation, just the freedom to listen to your intuition and make the practice truly yours. Perfect for all levels, especially those new to aerial yoga or seeking a mindful, restorative experience. This style of yoga is done in a soft fabric hammock elevated above the ground about 3 or 4 feet. In contrast to a traditional yoga class where we use strength to hold our poses. Aerial yoga is about learning how to let go within the posture. The hammock is used to make inversions more accessible by alleviating back and neck compression. It also aligns the spine and decompresses the joints of the body.",
       "instructor": "Nancy Forstbauer",
@@ -83,6 +71,18 @@
       "endTime": "9:00 AM",
       "location": "Middlefield Nook",
       "category": "Meditation",
+      "capacity": null,
+      "tags": []
+    },
+    {
+      "title": "Slackline Yoga and AcroYoga w/YogaSlackers (Green Space) 8:00AM-9:00AM",
+      "description": "Kick off the festival by exploring two exciting practices at once! This class offers you a chance to try both Slackline Yoga and AcroYoga. Two worlds that share the same love for balance, connection, and playfulness. Whether you're brand new or have some experience in one or both, this class is a great way to explore the foundations of each practice. You'll play on the slackline and explore partner movements on the ground, discovering how both cultivate trust, focus, and joy. Come connect, play, and dive into these unique practices! You might just find a new passion or deepen your understanding of both! You do not need a partner or prior experience to join this class.",
+      "instructor": "YogaSlackers",
+      "date": "Jul 25, 2026",
+      "startTime": "8:00 AM",
+      "endTime": "9:00 AM",
+      "location": "Green Space",
+      "category": "Acro",
       "capacity": null,
       "tags": []
     },
