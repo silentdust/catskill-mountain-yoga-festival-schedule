@@ -7,7 +7,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = resolve(__dirname, "../data/schedule.json");
 
 const SCHEDULE_URL =
-  "https://app.clearevent.com/eventPortal#/event/0aed3d62-2a7d-460f-a7ad-058cf1a67eab/schedules/2323/detail";
+  // 2026 "https://app.clearevent.com/eventPortal#/event/0aed3d62-2a7d-460f-a7ad-058cf1a67eab/schedules/2323/detail";
+  "https://app.clearevent.com/eventPortal#event/0aed3d62-2a7d-460f-a7ad-058cf1a67eab/schedules/2744/detail";
 
 /**
  * Parse the ClearEvent friendly date string into structured date/time fields.
