@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T12:31:29.211Z",
+  "lastUpdated": "2026-09-23T20:51:38.515Z",
   "eventName": "Catskill Mountain Yoga Festival",
   "sessions": [
     {
@@ -106,6 +106,18 @@
       "startTime": "8:00 AM",
       "endTime": "9:00 AM",
       "location": "Green Space",
+      "category": "",
+      "capacity": null,
+      "tags": []
+    },
+    {
+      "title": "Yoga for Runners w/Selena Reynolds (Farrell Center Small Dance Studio) 8:00AM-9:00AM",
+      "description": "Yoga and running are deeply complementary practices. Both build strength and focus, support resilience, and cultivate calm. Each offers long‑proven health benefits that balance the demands of modern life. Running develops cardiovascular endurance and the locomotion stamina many of us don’t get day‑to‑day. Yoga provides the stress relief and mental clarity needed to counter constant busy‑ness and overstimulation. This practice centers on flexibility and recovery for the muscle groups runners rely on most: hips, hamstrings, calves, and quads. We’ll also highlight feet, joint stability, and core strength to support longevity and reduce injury risk. Class concludes with breathwork and relaxation to enhance endurance, expand lung capacity, and cultivate peace of mind—on the mat, on the trail, and in daily life. (Asana‑focused; all levels welcome.)",
+      "instructor": "Selena Reynolds",
+      "date": "Jul 24, 2027",
+      "startTime": "8:00 AM",
+      "endTime": "9:00 AM",
+      "location": "Farrell Center Small Dance Studio",
       "category": "",
       "capacity": null,
       "tags": []
@@ -250,18 +262,6 @@
       "startTime": "11:00 AM",
       "endTime": "12:00 PM",
       "location": "Green Space",
-      "category": "",
-      "capacity": null,
-      "tags": []
-    },
-    {
-      "title": "Yoga for Runners w/Selena Reynolds (Farrell Center Small Dance Studio) 11:00AM-12:00PM",
-      "description": "Yoga and running are deeply complementary practices. Both build strength and focus, support resilience, and cultivate calm. Each offers long‑proven health benefits that balance the demands of modern life. Running develops cardiovascular endurance and the locomotion stamina many of us don’t get day‑to‑day. Yoga provides the stress relief and mental clarity needed to counter constant busy‑ness and overstimulation. This practice centers on flexibility and recovery for the muscle groups runners rely on most: hips, hamstrings, calves, and quads. We’ll also highlight feet, joint stability, and core strength to support longevity and reduce injury risk. Class concludes with breathwork and relaxation to enhance endurance, expand lung capacity, and cultivate peace of mind—on the mat, on the trail, and in daily life. (Asana‑focused; all levels welcome.)",
-      "instructor": "Selena Reynolds",
-      "date": "Jul 24, 2027",
-      "startTime": "11:00 AM",
-      "endTime": "12:00 PM",
-      "location": "Farrell Center Small Dance Studio",
       "category": "",
       "capacity": null,
       "tags": []
